@@ -46,6 +46,12 @@ body {
     background-color: #fdfffc;
 }
 
+header {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 30px;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -63,6 +69,19 @@ h6 {
 h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
+}
+.Laure {
+    font-family: "Changa One", sans-serif;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.Graphiste {
+    margin: -5px;
+}
+.menu {
+    font-family: "Changa One", sans-serif;
 }
 h2 {
     font-size: 1.5rem;
