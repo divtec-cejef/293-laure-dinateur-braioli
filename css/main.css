@@ -36,27 +36,6 @@
 * {
     box-sizing: border-box;
 }
-
-body {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 100%;
-    line-height: 1.4;
-    color: #011627;
-    background-color: #fdfffc;
-}
-
-header {
-    background-color: black;
-    text-align: center;
-    padding: 5px;
-    margin: 30px;
-}
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
 h1,
 h2,
 h3,
@@ -66,40 +45,12 @@ h6 {
     font-family: "Changa One", sans-serif;
     font-weight: 400;
 }
-h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-.Laure {
-    font-family: "Changa One", sans-serif;
-    font-size: 1.75rem;
-    line-height: 0.8;
-    margin-top: 1rem;
-    margin-bottom: 1rem
-}
-.Graphiste {
-    margin: -5px;
-}
-.menu {
-    font-family: "Changa One", sans-serif;
-}
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: .75rem;
-}
 p {
     line-height: 1.5;
 }
 a {
-    color: #e71d36;
-    text-decoration: none;
+    color:#e71d36;
 }
-
-a:hover {
-    color: darkmagenta;
-    text-decoration: underline;
-}
-
 /**********************************
             PAGE INDEX
  **********************************/
@@ -116,5 +67,98 @@ a:hover {
             PAGE INFORMATION
  **********************************/
 .page-information {
-    color: orangered;
+    color: black;
+}
+header {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 30px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: .75rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #011627;
+    background-color: #fdfffc;
+}
+#Laure {
+    font-family: "Changa One", sans-serif;
+    color: #2ec4b6;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+#Graphiste {
+    margin: -5px;
+    font-family: "Open Sans", sans-serif;
+}
+#profil {
+    Border-radius : 50%;
+    max-width: 100%;
+    height: 150px;
+    width: 150px;
+    display : block ;
+    margin-left :auto;
+    margin-right :auto;
+}
+nav {
+    font-family: "Changa One", sans-serif;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+nav ul {
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.accueil {
+    display:none;
+}
+@media screen and (max-width: 768px) {
+    a {
+        font-weight: 800; /* Met en gras (font-weight: 800) */
+        display: block; /* Permet d'occuper toute la largeur disponible */
+        margin: 15px 10px; /* Marge intérieure de 15px haut/bas et 10px gauche/droite */
+        text-decoration: none; /* Supprime la soulignement par défaut des liens */
+    }
+}
+nav ul li a:hover {
+    color: #2ec4b6;
+
+}
+main {
+        margin: 0 5%;
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+footer img {
+    display:inline-block;
+    width: 50px;
+    margin-right: 30px;
+    filter: grayscale(1);
+    transition: filter 500ms linear;
+}
+footer img:hover {
+    filter: grayscale(0);
 }
