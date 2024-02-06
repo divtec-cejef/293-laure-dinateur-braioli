@@ -58,6 +58,54 @@ a {
 .page-index {
     color: lightseagreen;
 }
+header {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 5px solid #2ec4b6;
+}
+header ul {
+    padding: 0;
+}
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.accueil {
+    display:none;
+}
+header ul li a {
+    padding: 5px 10px;
+    display:inline-block;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    color: #fdfffc;
+}
+header ul li a:hover,
+header ul li a.actif
+{
+    color: #2ec4b6;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+#Graphiste {
+    margin: -5px;
+    font-family: "Open Sans", sans-serif;
+}
+#Laure {
+    font-family: "Changa One", sans-serif;
+    color: #2ec4b6;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
 /**********************************
             PAGE CONTACT
  **********************************/
@@ -68,13 +116,73 @@ a {
             PAGE INFORMATION
  **********************************/
 .page-information {
-    color: black;
+    color: #011627;
 }
+/**********************************
+               HEADER
+ **********************************/
 header {
     background-color: black;
     text-align: center;
     padding: 5px;
-    margin: 30px;
+    border-bottom: 5px solid #2ec4b6;
+}
+header ul {
+    padding: 0;
+}
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.accueil {
+    display:none;
+}
+header ul li a {
+    padding: 5px 10px;
+    display:inline-block;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    color: #fdfffc;
+}
+header ul li a:hover,
+header ul li a.actif
+{
+    color: #2ec4b6;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+#Graphiste {
+    margin: -5px;
+    font-family: "Open Sans", sans-serif;
+}
+#Laure {
+    font-family: "Changa One", sans-serif;
+    color: #2ec4b6;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+/**********************************
+               MAIN
+ **********************************/
+main {
+    margin: 0 5%;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #011627;
+    background-color: #fdfffc;
+    margin: 0;
 }
 h1 {
     text-align: center;
@@ -88,26 +196,6 @@ img {
     height: auto;
     width: auto;
 }
-body {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 100%;
-    line-height: 1.4;
-    color: #011627;
-    background-color: #fdfffc;
-}
-#Laure {
-    font-family: "Changa One", sans-serif;
-    color: #2ec4b6;
-    font-size: 1.75rem;
-    line-height: 0.8;
-    margin-top: 1rem;
-    margin-bottom: 1rem
-}
-#Graphiste {
-    margin: -5px;
-    font-family: "Open Sans", sans-serif;
-}
 #profil {
     Border-radius : 50%;
     max-width: 100%;
@@ -117,23 +205,6 @@ body {
     margin-left :auto;
     margin-right :auto;
 }
-nav {
-    font-family: "Changa One", sans-serif;
-    padding-top: 10px;
-    margin-top: 20px;
-}
-nav ul {
-    margin: 0 10px;
-    padding: 0;
-    list-style: none;
-}
-nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-.accueil {
-    display:none;
-}
 @media screen and (max-width: 768px) {
     a {
         font-weight: 800; /* Met en gras (font-weight: 800) */
@@ -142,13 +213,9 @@ nav ul li {
         text-decoration: none; /* Supprime la soulignement par défaut des liens */
     }
 }
-nav ul li a:hover {
-    color: #2ec4b6;
-
-}
-main {
-        margin: 0 5%;
-}
+/**********************************
+               FOOTER
+ **********************************/
 footer {
     margin-top: 50px;
     text-align: center;
