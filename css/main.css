@@ -58,60 +58,16 @@ a {
 .page-index {
     color: lightseagreen;
 }
-header {
-    background-color: black;
-    text-align: center;
-    padding: 5px;
-    border-bottom: 5px solid #2ec4b6;
-}
-header ul {
-    padding: 0;
-}
-header ul li {
-    display: inline-block;
-    margin: 0 15px;
-}
-.accueil {
-    display:none;
-}
-header ul li a {
-    padding: 5px 10px;
-    display:inline-block;
-    font-family: "Changa One", sans-serif;
-    font-weight: 400;
-    color: #fdfffc;
-}
-header ul li a:hover,
-header ul li a.actif
-{
-    color: #2ec4b6;
-}
-header ul {
-    padding: 0;
-    list-style: none;
-}
-nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-#Graphiste {
-    margin: -5px;
-    font-family: "Open Sans", sans-serif;
-}
-#Laure {
-    font-family: "Changa One", sans-serif;
-    color: #2ec4b6;
-    font-size: 1.75rem;
-    line-height: 0.8;
-    margin-top: 1rem;
-    margin-bottom: 1rem
-}
 /**********************************
             PAGE CONTACT
  **********************************/
 .page-contact {
-    color: green;
+    color: #011627;
 }
+.tel {
+
+}
+
 /**********************************
             PAGE INFORMATION
  **********************************/
@@ -119,7 +75,7 @@ nav ul li {
     color: #011627;
 }
 /**********************************
-               HEADER
+        HEADER PAGE INFORMATION
  **********************************/
 header {
     background-color: black;
@@ -170,7 +126,7 @@ nav ul li {
     margin-bottom: 1rem
 }
 /**********************************
-               MAIN
+        MAIN PAGE INFORMATION
  **********************************/
 main {
     margin: 0 5%;
@@ -184,7 +140,7 @@ body {
     background-color: #fdfffc;
     margin: 0;
 }
-h1 {
+.page-information h1 {
     text-align: center;
 }
 h2 {
@@ -205,20 +161,19 @@ img {
     margin-left :auto;
     margin-right :auto;
 }
-@media screen and (max-width: 768px) {
-    a {
-        font-weight: 800; /* Met en gras (font-weight: 800) */
-        display: block; /* Permet d'occuper toute la largeur disponible */
-        margin: 15px 10px; /* Marge intérieure de 15px haut/bas et 10px gauche/droite */
-        text-decoration: none; /* Supprime la soulignement par défaut des liens */
-    }
-}
 /**********************************
-               FOOTER
+        FOOTER PAGE INFORMATION
  **********************************/
 footer {
     margin-top: 50px;
     text-align: center;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
 }
 footer img {
     display:inline-block;
